@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Script Master</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 { color: #333; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px; }
+        h2 { color: #444; margin-top: 30px; }
+        ul { margin: 10px 0; padding-left: 20px; }
+        li { margin: 5px 0; }
+        .highlight { background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        .contact { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy - Script Master</h1>
+    <p><strong>Last Updated:</strong> <span id="date"></span></p>
+
+    <h2>Overview</h2>
+    <p>Script Master is an educational app that respects your privacy. We collect minimal data and focus on providing a secure learning experience.</p>
+
+    <h2>What We Collect</h2>
+    <ul>
+        <li><strong>No personal data:</strong> We don't collect names, emails, or contact information</li>
+        <li><strong>No payment data:</strong> The app is completely free</li>
+        <li><strong>Anonymous analytics:</strong> Basic usage statistics via Google Play (optional)</li>
+        <li><strong>Crash reports:</strong> Anonymous error data to fix bugs</li>
+    </ul>
+
+    <h2>Local Data</h2>
+    <p>All learning content, progress, and settings are stored locally on your device. This data never leaves your device unless you share it.</p>
+
+    <h2>Text-to-Speech</h2>
+    <p>TTS processing happens locally using your device's built-in speech engine. We don't send any audio data to servers.</p>
+
+    <h2>Permissions</h2>
+    <p>The app requests no special permissions beyond basic app functionality.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy. Continued use of the app means you accept the updated policy.</p>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>For privacy questions: [Your Email or GitHub Issues Page]</p>
+        <p>GitHub: <a href="https://github.com/[yourusername]/script-master">https://github.com/[yourusername]/script-master</a></p>
+    </div>
+
+    <script>
+        document.getElementById('date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
